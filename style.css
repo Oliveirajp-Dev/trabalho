@@ -1,0 +1,480 @@
+/* Reset de margens, paddings e definição de fonte padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, arial;
+}
+
+/* Estilização da barra de navegação */
+nav {
+  width: 100%;
+  background-image: url(imagem/download.jpg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0px 0px 20px #000000  ;
+}
+
+/* Título da navegação */
+nav h1 {
+  margin: 0;
+  font-size: 25px;
+  color: #075effbe;
+}
+
+/* Lista de links do menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 8px;
+  padding: 0;
+}
+
+/* Links do menu */
+nav a {
+  text-decoration: none;
+  color: #ffffffbe; /* Cor dos links */
+  font-weight: bold;
+  transition: color 0.3s ease;
+  border: solid 1px;
+  padding: 7px;
+  border-radius: 7px;
+}
+
+/* Efeito hover nos links do menu */
+nav a:hover {
+  color: #ff9900; /* Cor ao passar o mouse */
+}
+
+/* Corpo principal da página */
+.main {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  padding: 70px;
+}
+
+/* Efeito de fundo com imagem e sombra  */
+.main::before {
+  position: absolute;
+  background-image: url(imagem/download\ \(3\).jpg);
+  content: "";
+  inset: 0;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.9;
+  margin: 60px 60px;
+  box-shadow: #01235c 0px 0px 30px;
+  border-radius: 15px;
+} 
+
+/* estilização do Título da seção início */
+#inicio h2 {
+  color: #075effbe;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  text-shadow: 2px 0px 10px #111111 ;
+}
+
+/* estilização do Subtítulo da seção início */
+#inicio h3 {
+  color: #ffffffbe;
+  text-align: center;
+  margin: 0 0 20px;
+  text-decoration: underline;
+  font-size: 20px;
+  text-shadow: 2px 0px 10px #111111;
+  text-transform: capitalize;
+}
+
+/* estilização dos Parágrafos da seção início */
+#inicio p {
+  text-align: center;
+  margin:  20px;
+  line-height: 1.5;
+  color: #ffffffbe;
+}
+
+/* estilo do Título da seção Sobre Mim */
+#SobreMim h2 {
+  color: #075effbe;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  text-shadow: 0px 0px 10px #111111 ;
+}
+
+/* Parágrafo da seção Sobre Mim */
+#SobreMim p {
+  text-align: center;
+  margin: 20px;
+  line-height: 1.5;
+  color: #ffffffbe;
+}
+
+/* Título da seção Formação */
+#formacao h2 {
+  color: #075effbe;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  text-shadow: 0px 0px 10px #111111 ;
+}
+
+/* estilização do a classe de escola */
+.escola {
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+  background-color: #01235c;
+  padding: 10px;
+  width: 40%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px #000000;
+  margin-bottom: 40px;
+}
+
+/* Efeito hover na classe escola */
+.escola:hover {
+  transform: scale(1.03);
+  transition: transform 0.5s steps(8, end);
+}
+
+/* Título da classe escola */
+.escola h3 {
+  color: #ffffffbe;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+/* Parágrafo da classe escola */
+.escola p{
+  color: #ffffffbe;
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* estilização de classe graduação */
+.graduacao {
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+  background-color: #01235c;
+  padding: 10px;
+  width: 40%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px #000000;
+  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+/* Efeito hover na graduação */
+.graduacao:hover {
+  transform: scale(1.03);
+  transition: transform 0.5s steps(8, end);
+}
+
+/* Título da classe graduação */
+.graduacao h3 {
+  color: #ffffffbe;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+/* Parágrafo da classe graduação */
+.graduacao p {
+  color: #ffffffbe;
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/*  estilizando a classe de curso */
+.curso{
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+  background-color: #01235c;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px #000000;
+  margin-bottom: 20px;
+  margin-bottom: 40px;
+  width: 40%;
+}
+
+/* Efeito hover na classe curso */
+.curso:hover {
+  transform: scale(1.03);
+  transition: transform 0.5s steps(8, end);
+}
+
+/* Título do curso */
+.curso h3 {
+  color: #ffffffbe;
+  margin: 10px 0;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* Parágrafo do curso */
+.curso p {
+  color: #ffffffbe;
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 1.8;
+  width: 100%;
+}
+
+/* Título da seção portfólio */
+.portifolio h2{
+  color: #075effbe;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  text-shadow: 0px 0px 10px #111111 ;
+}
+
+/* Parágrafo da seção portfólio */
+.portifolio p{
+  text-align: center;
+  margin: 40px 0;
+  line-height: 1.5;
+  color: #ffffffbe;
+}
+
+/* estilizando classe de projetos */
+.projetos {
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+  background-color: #01235c;
+  padding: 10px;
+  width: 40%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px #000000;
+  margin-bottom: 40px;
+}
+
+/* Efeito hover nos projetos */
+.projetos:hover {
+  transform: scale(1.03);
+  transition: transform 0.5s steps(8, end);
+}
+
+/* Título dos projetos */
+.projetos h3 {
+  color: #ffffffbe;
+  margin: 10px 0;
+  font-size: 20px;
+} 
+
+/* Parágrafo dos projetos */
+.projetos p {
+  color: #ffffffbe;
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 1.8;
+  width: 100%;
+} 
+
+/* Link dos projetos */
+.projetos a {
+  display: flex;
+  text-decoration: none;
+  color: #ffffffbe;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  padding: 7px;
+  border-radius: 7px;
+  width: 50%;
+  margin: 30px auto;
+  justify-content: center;
+  background-color: #ff9900;
+}
+
+/* Efeito hover nos links dos projetos */
+.projetos a:hover {
+  color: #01235c; /* Cor ao passar o mouse */
+  background-color: #cc7a00;
+  transform: scale3d(1.05, 1.05, 1);
+}
+
+/*  contatos (ícones de redes sociais) */
+.contato {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+/* Título da seção de contato */
+#contato h2 {
+  color: #075effbe;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 0px 0px 10px #111111 ;
+  font-size: 30px;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+/* Imagens dos ícones de contato */
+.contato a img {
+  width: 70%;
+  margin: auto;
+  height: auto;
+}
+
+/* Estilização do formulário de contato */
+form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #222;
+  color: #ffffffbe;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-bottom: 40px;
+}
+
+/* Campos do formulário */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Efeito de foco nos campos do formulário */
+input:focus, textarea:focus {
+  outline: 2px solid #ff9900;
+}
+
+/* Botão do formulário */
+button {
+  background-color: #ff9900;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Efeito hover no botão */
+button:hover {
+  background-color: #cc7a00;
+}
+
+/* Rodapé da página */
+.footer {
+  background-image: url(imagem/download.jpg);
+  color: #ffffffbe;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+
+/* Parágrafo do rodapé */
+.footer p {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+/* Título do rodapé */
+.footer h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #ffffffbe;
+}
+
+/* Responsividade para telas menores */
+@media (max-width:890px) {
+  .main {
+    width: 90%;
+    padding: 60px;
+  }
+  
+  .contato {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .escola, .graduacao, .curso, .projetos {
+    width: 80%;
+  }
+  .contato a img{
+    margin: auto;
+    width: 70%;
+    height:auto;
+  }
+  form {
+    width: 90%;
+  }
+}
+
+/* Ajustes para telas até 700px */
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+}
+
+/* Ajustes para telas até 600px */
+@media (max-width:600) {
+  .main {
+    width: 100%;
+    padding: 80px;
+  }
+  
+  .contato {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+/* Ajustes para telas até 530px */
+@media all and (max-width:530px) {
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul{
+    flex-direction: column;
+    gap: 25px;
+  }
+  .main {
+    width: 100%;
+    padding: 60px;
+  }
+}
+
+/* Ajustes para telas até 410px */
+@media all and (max-width:410px) {
+   .escola, .graduacao, .curso, .projetos {
+    width: 80%;
+  } 
+  .curso h3{
+    font-size: 15px;
+  }
+}
+

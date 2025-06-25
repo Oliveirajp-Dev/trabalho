@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif, arial;
+  overflow-x: hidden;
+
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.hero nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  justify-content: right;
+  gap: 30px;
+  padding: 20px 60px;
+  align-items: center;
+}
+
+.entrar {
+  color: #2145c4;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.cadastrar {
+  background-color: #2145c4;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.8s;
+}
+.logo-conteiner {
+  display: flex;
+  justify-content: space-between;
+  justify-content: left;
+  align-items: center;
+  padding: 0 60px;
+  gap: 10px;
+}
+.botao{
+  background-color: rgba(33, 69, 196, 0.2);
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding:40px 20px;
+  margin-top: 60px;
+}
+.conteudo-botao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+.conteiner-texto{
+  max-width: 50%;
+  flex:  1 1 300px;
+}
+.imagem-doacao{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  align-items: center;
+  flex: 1 1 300px;
+  display: flex ;
+  justify-content: center;
+  
+}
+
+.imagem-doacao img{
+  max-width: 100%;
+  height: auto;
+}
+.conteiner-texto h2{
+  font-size: 50px;
+}
+.conteiner-texto p{
+  font-size: 20px;
+  line-height: 1.3;
+  margin-top: 25px;
+}
+.conteiner-texto a{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #2145c4;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  .hero nav ul {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .conteudo-botao {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .conteiner-texto {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .imagem-doacao img {
+    width: 100%;
+    height: auto;
+  }
+
+  .botao a {
+    display: inline-block;
+    margin-top: 20px;
+  }
+}

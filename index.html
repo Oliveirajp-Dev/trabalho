@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>portifólio Pessoal (cv online)</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navegação principal do site -->
+      <nav>
+        <h1>Oliveira Dev</h1>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#SobreMim">sobre mim</a></li>
+          <li><a href="#formacao">formações</a></li>
+          <li><a href="#portifolio">portifólio</a></li>
+          <li><a href="#contato">contatos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section id="inicio">
+        <!-- Seção inicial de apresentação -->
+        <h2>Olá, me chamo João Pedro.</h2>
+        <h3>estudante de Análise e desenvolvimento de Sistemas</h3>
+        <p>
+          Aqui você encontrará informações sobre minhas formações, projetos
+          desenvolvidos e formas de contato. Sinta-se à vontade para explorar e
+          conhecer um pouco mais sobre mim e sobre meu trabalho!
+        </p>
+      </section>
+      <section id="SobreMim">
+        <!-- Seção sobre mim com detalhes pessoais e minha trajetória -->
+        <h2>Muito prazer!</h2>
+        <p>
+          Sou o João Pedro, atualmente curso
+          <b>Análise e Desenvolvimento de Sistemas</b> na Uninter. Tenho 26 anos
+          e uma grande paixão por tecnologia. Sempre fui curioso por tudo que
+          envolve inovação, especialmente o mundo dos jogos, que é uma das
+          minhas maiores paixões e hobbies.
+        </p>
+        <p>
+          Desde a infância, me perguntava como eram criados os jogos, os sites e
+          os aplicativos que usamos no dia a dia. Foi essa curiosidade que me
+          levou a conhecer a <strong>programação</strong>, área pela qual me
+          apaixonei. Hoje, meu foco é o
+          <strong>desenvolvimento de software</strong>, com ênfase em
+          <strong>Back-end</strong>, que é onde desejo me especializar e
+          construir minha carreira.
+        </p>
+        <p>
+          Estou sempre em busca de novos conhecimentos e desafios para evoluir
+          como desenvolvedor. Espero que este portfólio reflita um pouco da
+          minha jornada, do meu comprometimento e da minha paixão pela
+          tecnologia.
+        </p>
+      </section>
+      <section id="formacao">
+        <!-- Seção de formação acadêmica -->
+        <h2>Formação Academica</h2>
+        <div class="conteudo">
+          <div class="escola">
+            <h3>Ensino médio</h3>
+            <p>
+              Concluído em 2016, no Colégio Estadual Ciep 127, localizado em
+              magé - rj.
+            </p>
+          </div>
+          <div class="graduacao">
+            <h3>Graduação</h3>
+            <p>
+              Atualmente cursando Análise e Desenvolvimento de Sistemas na
+              Uninter, com previsão de conclusão em 2027.
+            </p>
+          </div>
+          <div class="curso">
+            <h3>Curso profissionalizante</h3>
+            <p>Curso de Informática Básica, concluído em 2015, Magé - RJ.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="portifolio">
+        <!-- Seção de portfólio com meus  projetos realizados -->
+        <div class="portifolio">
+          <h2>Meus Projetos!</h2>
+          <p>
+            Aqui estão alguns dos projetos que desenvolvi durante minha jornada
+            acadêmica. Cada projeto reflete minha dedicação e aprendizado.
+          </p>
+        </div>
+        <div class="projetos">
+          <!-- Projeto 1 -->
+          <h3>Landind page para clinica Veterinaria</h3>
+          <p>
+            Este projeto foi desenvolvido com parte dos meus estudos. A landing
+            page foi criada para uma clínica veterinária fictícia, com o
+            objetivo de apresentar os serviços oferecidos e facilitar o contato
+            com os clientes.
+          </p>
+          <!-- Link para o projeto 1-->
+          <a href="projeto veterinario/index.html" target="_blank" class="link"
+            >Landind page</a
+          >
+        </div>
+
+        <div class="projetos">
+          <!-- Projeto 2 -->
+          <h3>Site para doações</h3>
+          <p>
+            Este projeto foi desenvolvido como parte dos meus estudos. O site
+            foi criado para uma organização fictícia que visa arrecadar doações
+            para ajudar pessoas em situação de vulnerabilidade social.
+          </p>
+          <!-- Link para o projeto 2-->
+          <a href="projetoDoações/index.html" target="_blank" class="link"
+            >Em andamento</a
+          >
+        </div>
+      </section>
+      <!-- Seção de contato com ícones de contato e formulário -->
+      <section id="contato">
+        <h2>fale comigo</h2>
+        <div class="contato">
+          <!-- Link para o WhatsApp -->
+          <a href="#"><img src="icones/whatsapp.png" alt="" /></a>
+
+          <!-- Link para o email -->
+          <a href="#"><img src="icones/gmail.png" alt="" /></a>
+
+          <!-- Link para o LinkedIn -->
+          <a href="#"><img src="icones/linkedin.png" alt="" /></a>
+        </div>
+        <form action="#" method="post">
+          <label for="nome">Nome:</label><br />
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome"
+            required
+          />
+
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu email"
+            required
+          />
+
+          <label for="mensagem">Mensagem:</label><br />
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            rows="5"
+            placeholder="Digite sua mensagem"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <!-- Rodapé do site -->
+      <h2>oliveira Dev</h2>
+      <hr />
+      <p>&copy;2025 Desenvolvido por João Pedro.</p>
+    </footer>
+  </body>
+</html>
